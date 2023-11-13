@@ -18,6 +18,31 @@ function WeatherApp() {
                 <img src={search_icon} alt="search-icon" />
             </div>
         </div>
+
+        <div className='weather-img'>
+            <img src={snow_icon} alt="snow_icon" />
+        </div>
+        <div className="temp">-1°c</div>
+        <div className="location">Helsinki</div>
+        <div className="data-container">
+                <div className="element">
+                    <img src={humidity_icon} alt="" className='icon' />
+                    <div className="data">
+                        <div className="humidity-percent">12%</div>
+                        <div className="text">Humidity</div>
+                    </div>
+                </div>
+                <div className="element">
+                    <img src={wind_icon} alt="" className='icon' />
+                    <div className="data">
+                        <div className="humidity-percent">18 km/h</div>
+                        <div className="text">Wind Speed</div>
+                    </div>
+                </div>
+        </div>
+
+   
+
       
     </div>
   )
