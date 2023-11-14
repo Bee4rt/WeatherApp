@@ -52,7 +52,7 @@ function WeatherApp() {
         }else if (data.weather[0].icon === '10d' || data.weather[0].icon === '10n' ){
             setWicon(rain_icon)
         }else if (data.weather[0].icon === '13d' || data.weather[0].icon === '13n' ){
-            setWicon(snow_icon_icon)
+            setWicon(snow_icon)
         }else {
             setWicon(cloud_icon)
         }
